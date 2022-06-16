@@ -1,0 +1,922 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {},
+    "prefix": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/patrick.quinn/Library/pnpm/store/v3",
+    "virtualStoreDir": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@capacitor/create-plugin/0.8.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@capacitor/create-plugin",
+      "rawSpec": "latest"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@capacitor/create-plugin/0.8.3",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@capacitor/create-plugin/0.8.3",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@ionic/utils-fs/3.1.5",
+    "wanted": {
+      "dependentId": "/@capacitor/create-plugin/0.8.3",
+      "name": "@ionic/utils-fs",
+      "rawSpec": "^3.1.3"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@ionic/utils-fs/3.1.5",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@ionic/utils-fs/3.1.5",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/kleur/4.1.4",
+    "wanted": {
+      "dependentId": "/@capacitor/create-plugin/0.8.3",
+      "name": "kleur",
+      "rawSpec": "^4.0.3"
+    }
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/kleur/4.1.4",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/kleur/4.1.4",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prompts/2.4.2",
+    "wanted": {
+      "dependentId": "/@capacitor/create-plugin/0.8.3",
+      "name": "prompts",
+      "rawSpec": "^2.3.2"
+    }
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prompts/2.4.2",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prompts/2.4.2",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tar/6.1.11",
+    "wanted": {
+      "dependentId": "/@capacitor/create-plugin/0.8.3",
+      "name": "tar",
+      "rawSpec": "^6.1.11"
+    }
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tar/6.1.11",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.4.0",
+    "wanted": {
+      "dependentId": "/@capacitor/create-plugin/0.8.3",
+      "name": "tslib",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tar/6.1.11",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "22 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mustache/4.2.0",
+    "wanted": {
+      "dependentId": "/@capacitor/create-plugin/0.8.3",
+      "name": "mustache",
+      "rawSpec": "^4.0.1"
+    }
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mustache/4.2.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mustache/4.2.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "25 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "/@capacitor/create-plugin/0.8.3",
+      "name": "debug",
+      "rawSpec": "^4.1.1"
+    }
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/4.3.4",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "27 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "/@ionic/utils-fs/3.1.5",
+      "name": "debug",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "28 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.4.0",
+    "wanted": {
+      "dependentId": "/@ionic/utils-fs/3.1.5",
+      "name": "tslib",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "29 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/kleur/3.0.3",
+    "wanted": {
+      "dependentId": "/prompts/2.4.2",
+      "name": "kleur",
+      "rawSpec": "^3.0.3"
+    }
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/kleur/3.0.3",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "31 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ms/2.1.2",
+    "wanted": {
+      "dependentId": "/debug/4.3.4",
+      "name": "ms",
+      "rawSpec": "2.1.2"
+    }
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ms/2.1.2",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "33 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/kleur/3.0.3",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "34 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/4.3.4",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "35 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ms/2.1.2",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "36 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fs-extra/9.1.0",
+    "wanted": {
+      "dependentId": "/@ionic/utils-fs/3.1.5",
+      "name": "fs-extra",
+      "rawSpec": "^9.0.0"
+    }
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fs-extra/9.1.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "38 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/sisteransi/1.0.5",
+    "wanted": {
+      "dependentId": "/prompts/2.4.2",
+      "name": "sisteransi",
+      "rawSpec": "^1.0.5"
+    }
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/sisteransi/1.0.5",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "40 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minizlib/2.1.2",
+    "wanted": {
+      "dependentId": "/tar/6.1.11",
+      "name": "minizlib",
+      "rawSpec": "^2.1.1"
+    }
+  },
+  "41 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minizlib/2.1.2",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "42 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chownr/2.0.0",
+    "wanted": {
+      "dependentId": "/tar/6.1.11",
+      "name": "chownr",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "43 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chownr/2.0.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "44 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mkdirp/1.0.4",
+    "wanted": {
+      "dependentId": "/tar/6.1.11",
+      "name": "mkdirp",
+      "rawSpec": "^1.0.3"
+    }
+  },
+  "45 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mkdirp/1.0.4",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "46 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fs-minipass/2.1.0",
+    "wanted": {
+      "dependentId": "/tar/6.1.11",
+      "name": "fs-minipass",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "47 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fs-minipass/2.1.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "48 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fs-extra/9.1.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "49 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/sisteransi/1.0.5",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "50 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minizlib/2.1.2",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "51 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chownr/2.0.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "52 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mkdirp/1.0.4",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "53 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fs-minipass/2.1.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "54 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minipass/3.1.6",
+    "wanted": {
+      "dependentId": "/tar/6.1.11",
+      "name": "minipass",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "55 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minipass/3.1.6",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "56 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minipass/3.1.6",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "57 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/at-least-node/1.0.0",
+    "wanted": {
+      "dependentId": "/fs-extra/9.1.0",
+      "name": "at-least-node",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "58 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/at-least-node/1.0.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "59 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/at-least-node/1.0.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "60 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/yallist/4.0.0",
+    "wanted": {
+      "dependentId": "/tar/6.1.11",
+      "name": "yallist",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "61 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/yallist/4.0.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "62 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minipass/3.1.6",
+    "wanted": {
+      "dependentId": "/minizlib/2.1.2",
+      "name": "minipass",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "63 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/yallist/4.0.0",
+    "wanted": {
+      "dependentId": "/minizlib/2.1.2",
+      "name": "yallist",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "64 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minipass/3.1.6",
+    "wanted": {
+      "dependentId": "/fs-minipass/2.1.0",
+      "name": "minipass",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "65 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/yallist/4.0.0",
+    "wanted": {
+      "dependentId": "/minipass/3.1.6",
+      "name": "yallist",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "66 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/yallist/4.0.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "67 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/graceful-fs/4.2.10",
+    "wanted": {
+      "dependentId": "/fs-extra/9.1.0",
+      "name": "graceful-fs",
+      "rawSpec": "^4.2.0"
+    }
+  },
+  "68 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/graceful-fs/4.2.10",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "69 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/universalify/2.0.0",
+    "wanted": {
+      "dependentId": "/fs-extra/9.1.0",
+      "name": "universalify",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "70 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/universalify/2.0.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "71 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/jsonfile/6.1.0",
+    "wanted": {
+      "dependentId": "/fs-extra/9.1.0",
+      "name": "jsonfile",
+      "rawSpec": "^6.0.1"
+    }
+  },
+  "72 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/jsonfile/6.1.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "resolved"
+  },
+  "73 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/graceful-fs/4.2.10",
+    "wanted": {
+      "dependentId": "/jsonfile/6.1.0",
+      "name": "graceful-fs",
+      "rawSpec": "^4.1.6"
+    }
+  },
+  "74 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/universalify/2.0.0",
+    "wanted": {
+      "dependentId": "/jsonfile/6.1.0",
+      "name": "universalify",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "75 debug pnpm:package-manifest": {
+    "prefix": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "updated": {
+      "dependencies": {
+        "@capacitor/create-plugin": "^0.8.3"
+      }
+    }
+  },
+  "76 debug pnpm:package-manifest": {
+    "prefix": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "updated": {
+      "dependencies": {
+        "@capacitor/create-plugin": "^0.8.3"
+      }
+    }
+  },
+  "77 debug pnpm:stage": {
+    "prefix": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "stage": "resolution_done"
+  },
+  "78 debug pnpm:stats": {
+    "prefix": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "removed": 0
+  },
+  "79 debug pnpm:stage": {
+    "prefix": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "stage": "importing_started"
+  },
+  "80 debug pnpm:stats": {
+    "added": 22,
+    "prefix": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391"
+  },
+  "81 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/graceful-fs/4.2.10",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "82 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/universalify/2.0.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "83 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/jsonfile/6.1.0",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "found_in_store"
+  },
+  "84 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@ionic+utils-fs@3.1.5/node_modules/@ionic/utils-fs",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@capacitor+create-plugin@0.8.3/node_modules/@ionic/utils-fs"
+  },
+  "85 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/debug@4.3.4/node_modules/debug",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@capacitor+create-plugin@0.8.3/node_modules/debug"
+  },
+  "86 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/kleur@4.1.4/node_modules/kleur",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@capacitor+create-plugin@0.8.3/node_modules/kleur"
+  },
+  "87 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/mustache@4.2.0/node_modules/mustache",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@capacitor+create-plugin@0.8.3/node_modules/mustache"
+  },
+  "88 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/prompts@2.4.2/node_modules/prompts",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@capacitor+create-plugin@0.8.3/node_modules/prompts"
+  },
+  "89 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/tar@6.1.11/node_modules/tar",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@capacitor+create-plugin@0.8.3/node_modules/tar"
+  },
+  "90 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/tslib@2.4.0/node_modules/tslib",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@capacitor+create-plugin@0.8.3/node_modules/tslib"
+  },
+  "91 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/debug@4.3.4/node_modules/debug",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@ionic+utils-fs@3.1.5/node_modules/debug"
+  },
+  "92 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/fs-extra@9.1.0/node_modules/fs-extra",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@ionic+utils-fs@3.1.5/node_modules/fs-extra"
+  },
+  "93 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/tslib@2.4.0/node_modules/tslib",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@ionic+utils-fs@3.1.5/node_modules/tslib"
+  },
+  "94 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/at-least-node@1.0.0/node_modules/at-least-node",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/fs-extra@9.1.0/node_modules/at-least-node"
+  },
+  "95 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/graceful-fs@4.2.10/node_modules/graceful-fs",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/fs-extra@9.1.0/node_modules/graceful-fs"
+  },
+  "96 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/jsonfile@6.1.0/node_modules/jsonfile",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/fs-extra@9.1.0/node_modules/jsonfile"
+  },
+  "97 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/universalify@2.0.0/node_modules/universalify",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/fs-extra@9.1.0/node_modules/universalify"
+  },
+  "98 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/graceful-fs@4.2.10/node_modules/graceful-fs",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/jsonfile@6.1.0/node_modules/graceful-fs"
+  },
+  "99 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/universalify@2.0.0/node_modules/universalify",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/jsonfile@6.1.0/node_modules/universalify"
+  },
+  "100 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/ms@2.1.2/node_modules/ms",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/debug@4.3.4/node_modules/ms"
+  },
+  "101 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/kleur@3.0.3/node_modules/kleur",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/prompts@2.4.2/node_modules/kleur"
+  },
+  "102 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/sisteransi@1.0.5/node_modules/sisteransi",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/prompts@2.4.2/node_modules/sisteransi"
+  },
+  "103 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/chownr@2.0.0/node_modules/chownr",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/tar@6.1.11/node_modules/chownr"
+  },
+  "104 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/fs-minipass@2.1.0/node_modules/fs-minipass",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/tar@6.1.11/node_modules/fs-minipass"
+  },
+  "105 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/minipass@3.1.6/node_modules/minipass",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/tar@6.1.11/node_modules/minipass"
+  },
+  "106 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/minizlib@2.1.2/node_modules/minizlib",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/tar@6.1.11/node_modules/minizlib"
+  },
+  "107 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/mkdirp@1.0.4/node_modules/mkdirp",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/tar@6.1.11/node_modules/mkdirp"
+  },
+  "108 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/yallist@4.0.0/node_modules/yallist",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/tar@6.1.11/node_modules/yallist"
+  },
+  "109 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/minipass@3.1.6/node_modules/minipass",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/fs-minipass@2.1.0/node_modules/minipass"
+  },
+  "110 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/yallist@4.0.0/node_modules/yallist",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/minipass@3.1.6/node_modules/yallist"
+  },
+  "111 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/minipass@3.1.6/node_modules/minipass",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/minizlib@2.1.2/node_modules/minipass"
+  },
+  "112 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/yallist@4.0.0/node_modules/yallist",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/minizlib@2.1.2/node_modules/yallist"
+  },
+  "113 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "114 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/graceful-fs@4.2.10/node_modules/graceful-fs"
+  },
+  "115 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "116 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/jsonfile@6.1.0/node_modules/jsonfile"
+  },
+  "117 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "118 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/at-least-node@1.0.0/node_modules/at-least-node"
+  },
+  "119 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "120 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/ms@2.1.2/node_modules/ms"
+  },
+  "121 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "122 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/chownr@2.0.0/node_modules/chownr"
+  },
+  "123 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "124 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/universalify@2.0.0/node_modules/universalify"
+  },
+  "125 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "126 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/kleur@3.0.3/node_modules/kleur"
+  },
+  "127 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "128 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/kleur@4.1.4/node_modules/kleur"
+  },
+  "129 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/fs-minipass@2.1.0/node_modules/fs-minipass"
+  },
+  "130 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/minizlib@2.1.2/node_modules/minizlib"
+  },
+  "131 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/minipass@3.1.6/node_modules/minipass"
+  },
+  "132 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "133 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@ionic+utils-fs@3.1.5/node_modules/@ionic/utils-fs"
+  },
+  "134 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "135 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/debug@4.3.4/node_modules/debug"
+  },
+  "136 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/yallist@4.0.0/node_modules/yallist"
+  },
+  "137 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "138 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@capacitor+create-plugin@0.8.3/node_modules/@capacitor/create-plugin"
+  },
+  "139 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "140 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/tar@6.1.11/node_modules/tar"
+  },
+  "141 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/mkdirp@1.0.4/node_modules/mkdirp"
+  },
+  "142 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "143 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/sisteransi@1.0.5/node_modules/sisteransi"
+  },
+  "144 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/tslib@2.4.0/node_modules/tslib"
+  },
+  "145 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "146 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/fs-extra@9.1.0/node_modules/fs-extra"
+  },
+  "147 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "148 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/prompts@2.4.2/node_modules/prompts"
+  },
+  "149 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "150 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "status": "imported",
+    "to": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/mustache@4.2.0/node_modules/mustache"
+  },
+  "151 debug pnpm:stage": {
+    "prefix": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391",
+    "stage": "importing_done"
+  },
+  "152 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@capacitor+create-plugin@0.8.3/node_modules/@capacitor/create-plugin",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/@capacitor/create-plugin"
+  },
+  "153 debug pnpm:root": {
+    "added": {
+      "dependencyType": "prod",
+      "id": "registry.npmjs.org/@capacitor/create-plugin/0.8.3",
+      "name": "@capacitor/create-plugin",
+      "realName": "@capacitor/create-plugin",
+      "version": "0.8.3"
+    },
+    "prefix": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391"
+  },
+  "154 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/@ionic+utils-fs@3.1.5/node_modules/@ionic/utils-fs",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/@ionic/utils-fs"
+  },
+  "155 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/debug@4.3.4/node_modules/debug",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/debug"
+  },
+  "156 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/kleur@4.1.4/node_modules/kleur",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/kleur"
+  },
+  "157 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/mustache@4.2.0/node_modules/mustache",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/mustache"
+  },
+  "158 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/prompts@2.4.2/node_modules/prompts",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/prompts"
+  },
+  "159 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/tar@6.1.11/node_modules/tar",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/tar"
+  },
+  "160 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/tslib@2.4.0/node_modules/tslib",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/tslib"
+  },
+  "161 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/fs-extra@9.1.0/node_modules/fs-extra",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/fs-extra"
+  },
+  "162 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/ms@2.1.2/node_modules/ms",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/ms"
+  },
+  "163 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/sisteransi@1.0.5/node_modules/sisteransi",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/sisteransi"
+  },
+  "164 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/chownr@2.0.0/node_modules/chownr",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/chownr"
+  },
+  "165 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/fs-minipass@2.1.0/node_modules/fs-minipass",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/fs-minipass"
+  },
+  "166 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/minipass@3.1.6/node_modules/minipass",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/minipass"
+  },
+  "167 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/minizlib@2.1.2/node_modules/minizlib",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/minizlib"
+  },
+  "168 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/mkdirp@1.0.4/node_modules/mkdirp",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/mkdirp"
+  },
+  "169 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/yallist@4.0.0/node_modules/yallist",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/yallist"
+  },
+  "170 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/at-least-node@1.0.0/node_modules/at-least-node",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/at-least-node"
+  },
+  "171 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/graceful-fs@4.2.10/node_modules/graceful-fs",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/graceful-fs"
+  },
+  "172 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/jsonfile@6.1.0/node_modules/jsonfile",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/jsonfile"
+  },
+  "173 debug pnpm:link": {
+    "target": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/universalify@2.0.0/node_modules/universalify",
+    "link": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.pnpm/node_modules/universalify"
+  },
+  "174 debug pnpm:summary": {
+    "prefix": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391"
+  },
+  "175 error pnpm": {
+    "shortMessage": "Command failed with exit code 1: /Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.bin/create-capacitor-plugin --name capacitor-useful-audio --package-id app.getradiant.usefulaudio --class-name UsefilAudio --repo https://github.com/patrickjquinn/capacitor-useful-audio --license Apache 2.0 --description An audio plugin for capacitor that is actually useful, support the major kinds of audio interactions you might need.",
+    "command": "/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.bin/create-capacitor-plugin --name capacitor-useful-audio --package-id app.getradiant.usefulaudio --class-name UsefilAudio --repo https://github.com/patrickjquinn/capacitor-useful-audio --license Apache 2.0 --description An audio plugin for capacitor that is actually useful, support the major kinds of audio interactions you might need.",
+    "escapedCommand": "\"/Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.bin/create-capacitor-plugin\" --name capacitor-useful-audio --package-id app.getradiant.usefulaudio --class-name UsefilAudio --repo \"https://github.com/patrickjquinn/capacitor-useful-audio\" --license \"Apache 2.0\" --description \"An audio plugin for capacitor that is actually useful, support the major kinds of audio interactions you might need.\"",
+    "exitCode": 1,
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 1: /Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.bin/create-capacitor-plugin --name capacitor-useful-audio --package-id app.getradiant.usefulaudio --class-name UsefilAudio --repo https://github.com/patrickjquinn/capacitor-useful-audio --license Apache 2.0 --description An audio plugin for capacitor that is actually useful, support the major kinds of audio interactions you might need.",
+      "stack": "pnpm: Command failed with exit code 1: /Users/patrick.quinn/Library/pnpm/store/v3/tmp/dlx-10391/node_modules/.bin/create-capacitor-plugin --name capacitor-useful-audio --package-id app.getradiant.usefulaudio --class-name UsefilAudio --repo https://github.com/patrickjquinn/capacitor-useful-audio --license Apache 2.0 --description An audio plugin for capacitor that is actually useful, support the major kinds of audio interactions you might need.\n    at makeError (/Users/patrick.quinn/Library/pnpm/global/5/.pnpm/pnpm@7.1.9/node_modules/pnpm/dist/pnpx.cjs:36999:17)\n    at handlePromise (/Users/patrick.quinn/Library/pnpm/global/5/.pnpm/pnpm@7.1.9/node_modules/pnpm/dist/pnpx.cjs:37570:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.handler [as dlx] (/Users/patrick.quinn/Library/pnpm/global/5/.pnpm/pnpm@7.1.9/node_modules/pnpm/dist/pnpx.cjs:177263:7)\n    at async /Users/patrick.quinn/Library/pnpm/global/5/.pnpm/pnpm@7.1.9/node_modules/pnpm/dist/pnpx.cjs:182795:21\n    at async run (/Users/patrick.quinn/Library/pnpm/global/5/.pnpm/pnpm@7.1.9/node_modules/pnpm/dist/pnpx.cjs:182769:34)\n    at async /Users/patrick.quinn/Library/pnpm/global/5/.pnpm/pnpm@7.1.9/node_modules/pnpm/dist/pnpx.cjs:182841:5"
+    }
+  }
+}
