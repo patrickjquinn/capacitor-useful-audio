@@ -9,7 +9,15 @@ const UsefilAudio = core.registerPlugin('UsefilAudio', {
 });
 
 class UsefilAudioWeb extends core.WebPlugin {
-    async echo(options) {
+    async play64(options) {
+        console.log('Not for web', options);
+        return options;
+    }
+    async playLocalAudio(options) {
+        console.log('Not for web', options);
+        return options;
+    }
+    async playUrl(options) {
         console.log('ECHO', options);
         return options;
     }

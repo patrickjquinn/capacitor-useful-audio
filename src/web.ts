@@ -3,7 +3,17 @@ import { WebPlugin } from '@capacitor/core';
 import type { UsefilAudioPlugin } from './definitions';
 
 export class UsefilAudioWeb extends WebPlugin implements UsefilAudioPlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
+  async play64(options: { base64: string }): Promise<any> {
+    console.log('Not for web', options);
+    return options;
+  }
+
+  async playLocalAudio(options: { path: string }): Promise<any> {
+    console.log('Not for web', options);
+    return options;
+  }
+
+  async playUrl(options: { url: string }): Promise<any> {
     console.log('ECHO', options);
     return options;
   }

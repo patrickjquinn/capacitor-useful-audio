@@ -13,24 +13,56 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`play64(...)`](#play64)
+* [`playLocalAudio(...)`](#playlocalaudio)
+* [`playUrl(...)`](#playurl)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### play64(...)
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+play64(options: { base64: string; }) => Promise<any>
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
+| Param         | Type                             |
+| ------------- | -------------------------------- |
+| **`options`** | <code>{ base64: string; }</code> |
 
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+**Returns:** <code>Promise&lt;any&gt;</code>
+
+--------------------
+
+
+### playLocalAudio(...)
+
+```typescript
+playLocalAudio(options: { path: string; }) => Promise<any>
+```
+
+| Param         | Type                           |
+| ------------- | ------------------------------ |
+| **`options`** | <code>{ path: string; }</code> |
+
+**Returns:** <code>Promise&lt;any&gt;</code>
+
+--------------------
+
+
+### playUrl(...)
+
+```typescript
+playUrl(options: { url: string; }) => Promise<any>
+```
+
+| Param         | Type                          |
+| ------------- | ----------------------------- |
+| **`options`** | <code>{ url: string; }</code> |
+
+**Returns:** <code>Promise&lt;any&gt;</code>
 
 --------------------
 

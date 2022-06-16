@@ -6,20 +6,52 @@
     "tags": [],
     "methods": [
       {
-        "name": "echo",
-        "signature": "(options: { value: string; }) => Promise<{ value: string; }>",
+        "name": "play64",
+        "signature": "(options: { base64: string; }) => Promise<any>",
         "parameters": [
           {
             "name": "options",
             "docs": "",
-            "type": "{ value: string; }"
+            "type": "{ base64: string; }"
           }
         ],
-        "returns": "Promise<{ value: string; }>",
+        "returns": "Promise<any>",
         "tags": [],
         "docs": "",
         "complexTypes": [],
-        "slug": "echo"
+        "slug": "play64"
+      },
+      {
+        "name": "playLocalAudio",
+        "signature": "(options: { path: string; }) => Promise<any>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ path: string; }"
+          }
+        ],
+        "returns": "Promise<any>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "playlocalaudio"
+      },
+      {
+        "name": "playUrl",
+        "signature": "(options: { url: string; }) => Promise<any>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ url: string; }"
+          }
+        ],
+        "returns": "Promise<any>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "playurl"
       }
     ],
     "properties": []
