@@ -22,36 +22,14 @@
         "slug": "play64"
       },
       {
-        "name": "playLocalAudio",
-        "signature": "(options: { path: string; }) => Promise<any>",
-        "parameters": [
-          {
-            "name": "options",
-            "docs": "",
-            "type": "{ path: string; }"
-          }
-        ],
+        "name": "stop",
+        "signature": "() => Promise<any>",
+        "parameters": [],
         "returns": "Promise<any>",
         "tags": [],
         "docs": "",
         "complexTypes": [],
-        "slug": "playlocalaudio"
-      },
-      {
-        "name": "playUrl",
-        "signature": "(options: { url: string; }) => Promise<any>",
-        "parameters": [
-          {
-            "name": "options",
-            "docs": "",
-            "type": "{ url: string; }"
-          }
-        ],
-        "returns": "Promise<any>",
-        "tags": [],
-        "docs": "",
-        "complexTypes": [],
-        "slug": "playurl"
+        "slug": "stop"
       }
     ],
     "properties": []

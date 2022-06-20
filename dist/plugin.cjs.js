@@ -13,13 +13,8 @@ class UsefilAudioWeb extends core.WebPlugin {
         console.log('Not for web', options);
         return options;
     }
-    async playLocalAudio(options) {
-        console.log('Not for web', options);
-        return options;
-    }
-    async playUrl(options) {
-        console.log('ECHO', options);
-        return options;
+    async stop() {
+        console.log('Not for web');
     }
 }
 

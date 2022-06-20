@@ -2,35 +2,61 @@ import Foundation
 import Capacitor
 
 import MediaPlayer;
+import AVFoundation;
+
+var base64Call:CAPPluginCall? = nil
+var player:AVAudioPlayer = AVAudioPlayer()
 
 
-@objc public class UsefilAudio: NSObject {
+@objc public class UsefilAudio: NSObject, AVAudioPlayerDelegate {
     @objc public func play64(_ call: CAPPluginCall) {
-        let base64 = call.getString("base64")
-        let data = Data(base64!.utf8)
-
-        func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
-            call.resolve()
+        if (call.getString("base64") == nil) {
+            call.reject("Please provide a valid base64 encoded string")
         }
+        let base64 = call.getString("base64")!
 
         do {
-            let player: AVAudioPlayer = try AVAudioPlayer(data: data)
-            // player.delegate = self as! AVAudioPlayerDelegate
-            NotificationCenter.default.addObserver(self, selector: Selector(("playerDidFinishPlaying:")), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: player)
+            guard let data = Data(base64Encoded: base64, options: .ignoreUnknownCharacters) else {
+                return call.reject("Error creating base64 audio data")
+            }
+            player = try AVAudioPlayer(data: data)
+            base64Call = call
+            player.delegate = self as AVAudioPlayerDelegate
             player.prepareToPlay()
+            do {
+                try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            } catch {
+                print("Couldn't set audio session category")
+            }
             player.play()
         }
         catch {
             call.reject("error playing file")
         }
     }
-    @objc public func playLocalAudio(_ call: CAPPluginCall) {
-        let path = call.getString("path")
-        print(path!)
+    
+    @objc public func stop(_ call: CAPPluginCall) {
+        player.stop()
+//        if (base64Call != nil) {
+//            base64Call?.resolve()
+//            base64Call = nil
+//        }
+        call.resolve()
     }
-    @objc public func playUrl(_ call: CAPPluginCall) {
-        let url = call.getString("url")
-        print(url!)
+    
+    public func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        if (base64Call != nil) {
+            base64Call?.resolve()
+            base64Call = nil
+        }
+    }
+    
+    public func audioPlayerDecodeErrorDidOccur(_ player: AVAudioPlayer, error: Error?) {
+        if (base64Call != nil) {
+            base64Call?.reject("An error occured in the player")
+            base64Call = nil
+        }
+    }
+    
 
-    }
 }

@@ -7,14 +7,7 @@ export class UsefilAudioWeb extends WebPlugin implements UsefilAudioPlugin {
     console.log('Not for web', options);
     return options;
   }
-
-  async playLocalAudio(options: { path: string }): Promise<any> {
-    console.log('Not for web', options);
-    return options;
-  }
-
-  async playUrl(options: { url: string }): Promise<any> {
-    console.log('ECHO', options);
-    return options;
+  async stop(): Promise<any> {
+    console.log('Not for web');
   }
 }

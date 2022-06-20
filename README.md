@@ -14,8 +14,7 @@ npx cap sync
 <docgen-index>
 
 * [`play64(...)`](#play64)
-* [`playLocalAudio(...)`](#playlocalaudio)
-* [`playUrl(...)`](#playurl)
+* [`stop()`](#stop)
 
 </docgen-index>
 
@@ -37,30 +36,11 @@ play64(options: { base64: string; }) => Promise<any>
 --------------------
 
 
-### playLocalAudio(...)
+### stop()
 
 ```typescript
-playLocalAudio(options: { path: string; }) => Promise<any>
+stop() => Promise<any>
 ```
-
-| Param         | Type                           |
-| ------------- | ------------------------------ |
-| **`options`** | <code>{ path: string; }</code> |
-
-**Returns:** <code>Promise&lt;any&gt;</code>
-
---------------------
-
-
-### playUrl(...)
-
-```typescript
-playUrl(options: { url: string; }) => Promise<any>
-```
-
-| Param         | Type                          |
-| ------------- | ----------------------------- |
-| **`options`** | <code>{ url: string; }</code> |
 
 **Returns:** <code>Promise&lt;any&gt;</code>
 

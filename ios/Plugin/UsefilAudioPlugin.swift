@@ -13,11 +13,7 @@ public class UsefilAudioPlugin: CAPPlugin {
         implementation.play64(call)
     }
     
-    @objc func playLocalAudio(_ call: CAPPluginCall) {
-        implementation.playLocalAudio(call)
-    }
-    
-    @objc func playUrl(_ call: CAPPluginCall) {
-        implementation.playUrl(call)
+    @objc func stop(_ call: CAPPluginCall) {
+        implementation.stop(call)
     }
 }
