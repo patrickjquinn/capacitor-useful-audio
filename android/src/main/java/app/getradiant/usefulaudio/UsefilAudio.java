@@ -1,8 +1,10 @@
 package app.getradiant.usefulaudio;
 
-import com.getcapacitor.PluginCall;
+import android.media.MediaDataSource;
 import android.media.MediaPlayer;
-import android.util.Log;
+import android.util.Base64;
+
+import com.getcapacitor.PluginCall;
 
 import java.io.IOException;
 
@@ -14,13 +16,45 @@ public class UsefilAudio {
         String base64 = call.getString("base64");
         try{
             String url = base64;
-            if (mediaPlayer != null){
-                mediaPlayer.reset();
+            // if (mediaPlayer != null){
+            //     mediaPlayer.reset();
+            // }
+            // if (mediaPlayer != null && mediaPlayer.isPlaying()) {
+            //     mediaPlayer.stop();
+            //     mediaPlayer.release();
+            // }
+
+            if (mediaPlayer == null) {
+                mediaPlayer = new MediaPlayer();
             }
+
             mediaPlayer = new MediaPlayer();
 
             try {
-                mediaPlayer.setDataSource(url);
+                byte[] data = Base64.decode(url, Base64.DEFAULT);
+
+                // mediaPlayer.setDataSource(url);
+                mediaPlayer.setDataSource(new MediaDataSource() {
+                    @Override
+                    public long getSize() {
+                        return data.length;
+                    }
+                
+                    @Override
+                    public int readAt(long position, byte[] buffer, int offset, int size) {
+                        int length = (int)getSize();
+                        if (position >= length) return -1;
+                        if (position + size > length) size = length - (int)position;
+                
+                        System.arraycopy(data, (int) position, buffer, offset, size);
+                        return size;
+                    }
+                
+                    @Override
+                    public synchronized void close() throws IOException {
+                        // nothing to do
+                    }
+                });
                 mediaPlayer.prepareAsync();
                 mediaPlayer.setVolume(100f, 100f);
                 mediaPlayer.setLooping(false);
@@ -30,9 +64,6 @@ public class UsefilAudio {
                 call.reject("SecurityException");
             } catch (IllegalStateException e) {
                 call.reject("IllegalStateException");
-            } catch (IOException e) {
-                Log.e("Error", e.getMessage());
-                call.reject("IOException");
             }
 
             mediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
