@@ -1,6 +1,6 @@
 # capacitor-useful-audio
 
-An audio plugin for capacitor that is actually useful, support the major kinds of audio interactions you might need.
+An audio plugin for capacitor that is actually useful, support playing and audio chunk via base64 and returning a resolved promise when it's complete. Also supports stopping the audio playback mid-stream. 
 
 ## Install
 

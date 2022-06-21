@@ -1,6 +1,6 @@
 {
   "name": "capacitor-useful-audio",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "An audio plugin for capacitor that is actually useful, support the major kinds of audio interactions you might need.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
