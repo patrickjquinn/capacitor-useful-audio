@@ -25,8 +25,9 @@ var player:AVAudioPlayer = AVAudioPlayer()
             player.prepareToPlay()
             do {
                 try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+                try AVAudioSession.sharedInstance().setActive(true)
             } catch {
-                print("Couldn't set audio session category")
+                print("Error making audio session active")
             }
             player.play()
         }

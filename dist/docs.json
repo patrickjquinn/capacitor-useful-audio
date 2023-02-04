@@ -32,7 +32,17 @@
         "slug": "stop"
       }
     ],
-    "properties": []
+    "properties": [
+      {
+        "name": "audio",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "HTMLAudioElement"
+        ],
+        "type": "HTMLAudioElement"
+      }
+    ]
   },
   "interfaces": [],
   "enums": [],
