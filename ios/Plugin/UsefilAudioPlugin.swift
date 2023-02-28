@@ -12,8 +12,16 @@ public class UsefilAudioPlugin: CAPPlugin {
     @objc func play64(_ call: CAPPluginCall) {
         implementation.play64(call)
     }
+
+    @objc func play(_ call: CAPPluginCall) {
+        implementation.play(call)
+    }
     
     @objc func stop(_ call: CAPPluginCall) {
         implementation.stop(call)
+    }
+    
+    @objc func preload(_ call: CAPPluginCall) {
+        implementation.preload(call)
     }
 }
